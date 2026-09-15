@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <p>youTube</p>
+        <button 
+        onclick="
+       subscribe()
+        "class ="mico">subscribe</button>
+        <script>
+            function subscribe(){
+         const buttonElement = document.querySelector('.mico') ;
+                if (buttonElement.innerHTML === 'subscribe') {
+            buttonElement.innerHTML = 'subscribed'
+             }else {
+            buttonElement.innerHTML ='subscribe'
+            }
+            }
+        </script>
+    </body>
+</html>
